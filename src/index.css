@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode Variables */
+:root {
+  --font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+  --font-weight: 400;
+  --primary: rgba(0, 0, 0, 0.87);
+  /* Text color for light mode */
+  --secondary: rgba(255, 255, 255, 0.87);
+  /* Text color for dark mode */
+  --background: #ffffff;
+  /* Background color for light mode */
+  --background-dark: #161616;
+  /* Background color for dark mode */
+  --button-bg: #f0f0f0;
+  /* Button background for light mode */
+  --button-bg-dark: #333333;
+  /* Button background for dark mode */
+  --link: #1e40af;
+  /* Link color for light mode */
+  --link-dark: #60a5fa;
+  /* Link color for dark mode */
+  --heading: #111111;
+  /* Heading color for light mode */
+  --heading-dark: #ffffff;
+  /* Heading color for dark mode */
+}
+
+/* Dark Mode Variables */
+@layer base {
+  .dark {
+    --primary: rgba(255, 255, 255, 0.87);
+    /* Text color for dark mode */
+    --secondary: rgba(0, 0, 0, 0.87);
+    /* Text color for light mode */
+    --background: #161616;
+    /* Background color for dark mode */
+    --background-dark: #000000;
+    /* Dark background */
+    --button-bg: #333333;
+    /* Button background for dark mode */
+    --button-bg-dark: #555555;
+    /* Button background for light mode */
+    --link: #60a5fa;
+    /* Link color for dark mode */
+    --link-dark: #1e40af;
+    /* Link color for light mode */
+    --heading: #ffffff;
+    /* Heading color for dark mode */
+    --heading-dark: #111111;
+    /* Heading color for light mode */
+  }
+}
