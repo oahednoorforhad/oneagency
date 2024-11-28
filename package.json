@@ -1,5 +1,6 @@
 {
   "name": "oneagency",
+  "homepage": "https://oahednoorforhad.github.io/oneagency/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
@@ -15,6 +18,7 @@
     "@heroicons/react": "^2.2.0",
     "@mui/icons-material": "^6.1.8",
     "@mui/material": "^6.1.8",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-slideshow-image": "^4.3.2",
