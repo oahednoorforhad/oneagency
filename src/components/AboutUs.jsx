@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutUs() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-gray-100 dark:from-gray-900 dark:to-black px-6 py-10">
@@ -11,7 +9,7 @@ export default function AboutUs() {
         <p className="text-xl text-gray-700 dark:text-gray-300 mb-12 max-w-3xl mx-auto">
           We are a team of passionate professionals, committed to delivering
           world-class services in video editing, web development, and AI/ML.
-          Over the years, we've completed more than{" "}
+          Over the years, we&apos;ve completed more than{" "}
           <span className="font-semibold text-blue-600 dark:text-blue-400">
             500 projects
           </span>{" "}
