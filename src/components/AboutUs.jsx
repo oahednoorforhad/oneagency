@@ -15,7 +15,7 @@ export default function AboutUs() {
           <span className="font-semibold text-blue-600 dark:text-blue-400">
             500 projects
           </span>{" "}
-          for our happy clients worldwide.
+          for our happy clients worldwide!S
         </p>
 
         {/* Leadership Section */}
