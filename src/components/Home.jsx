@@ -31,6 +31,21 @@ export default function Home() {
       image: "https://www.cbit.ac.in/wp-content/uploads/2023/03/AIML-CBIT.gif",
       title: "AI & Machine Learning",
     },
+    {
+      image:
+        "https://cdn.shopify.com/s/files/1/0840/8370/3830/articles/1603954182-seo-article-header.png?v=1714646999",
+      title: "SEO Optimization",
+    },
+    {
+      image:
+        "https://img.freepik.com/free-vector/graphic-design-geometric-lettering_23-2148470664.jpg",
+      title: "Graphics Design",
+    },
+    {
+      image:
+        "https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg",
+      title: "Cyber Security",
+    },
   ];
 
   return (
@@ -58,7 +73,7 @@ export default function Home() {
         </Slide>
       </div>
       <br />
-      <div className="bg-white dark:bg-background-dark py-16 px-4">
+      <div className="py-16 px-4">
         {/* Outer container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {/* Active in Market */}

@@ -56,13 +56,3 @@ export default function Services() {
     </div>
   );
 }
-
-// Sir Assalamu'alaikum.
-// Sir ami EDGE program er CBI -029 batch e regular class kori.
-// Health issues er karone orientation program and exam attend korte parinai.
-// Pore application diye exam ta disi.
-// Amader moddhe amar moto koiekjon same ache.
-// amader kit provide kora hoinai.
-// Sir kibhabe kit pete pari ektu bolle bhalo hoto,
-// amader ki EDGE er shathe contact korte hobe naki varsity theke provide kora hobe janale bhalo hoto.
-// Jamal bhai bollo apnar shathe contact korte.
